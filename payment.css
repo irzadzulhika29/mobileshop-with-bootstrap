@@ -43,15 +43,12 @@ body {
   font-weight: 500;
 }
 
-.delivery-option button {
-  padding: 10px 0;
-}
 
 .address-options button {
   background: none;
   padding: 5px 25px;
-  border: 1px solid;
-  border-radius: 50px;
+  border: 1px solid black;
+  border-radius: 20px;
 }
 
 .product-img {
