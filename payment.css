@@ -1,0 +1,98 @@
+* {
+  font-family: "Sora";
+}
+
+body {
+  height: 100vh;
+}
+
+.font-size-heading-bold {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.font-size-heading {
+  font-size: 1.5rem;
+}
+
+.font-size-base {
+  font-size: 1.2rem;
+}
+.font-size-small {
+  font-size: 1rem;
+  color: #7b7b7b;
+}
+
+.nav-item {
+  color: #e27d19;
+}
+
+.delivery-options {
+  background-color: #ededed;
+}
+
+.option {
+  background-color: #f8f8f8;
+}
+
+.picked-options {
+  color: white;
+  background-color: #e27d19;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.delivery-option button {
+  padding: 10px 0;
+}
+
+.address-options button {
+  background: none;
+  padding: 5px 25px;
+  border: 1px solid;
+  border-radius: 50px;
+}
+
+.product-img {
+  height: 100px;
+  width: 100px;
+}
+
+.product-img img {
+  border-radius: 10px;
+}
+
+.quantity-btn {
+  background-color: #e27d19;
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.quantity-set {
+  padding: 10px 0px;
+  width: 100px;
+}
+
+.discount {
+  background-color: #ededed;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+#payment-method {
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.btn-order {
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #e27d19;
+}
+
+#discount {
+  fill: red;
+}
