@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora";
+}
+.font-size-heading-bold {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.font-size-heading {
+  font-size: 1.5rem;
+}
+.font-size-base {
+  font-size: 1.2rem;
+}
+.font-size-small {
+  font-size: 1rem;
+  color: #7b7b7b;
+}
+.color-muted {
+  color: #b7b6b6;
+}
+.color-secondary {
+  color: #dfe1e3;
+}
+
+/* home */
+.img-profile {
+  width: 75px;
+  border-radius: 20%;
+  height: 75px;
+}
+.search-container {
+  background-color: white;
+  padding: 5px 20px;
+  width: 100%;
+  max-width: 576px;
+  margin: 10px auto;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.search-input {
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  font-size: 16px;
+  padding: 10px;
+}
+.filter {
+  padding: 10px 15px;
+  background-color: #b6754c;
+  border-radius: 5px;
+  color: white;
+}
+.banner {
+  height: 130px;
+  border-radius: 20px;
+  bottom: -65px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #947257;
+  width: 92%;
+  z-index: 1000;
+}
+.banner img {
+  border-radius: 10px;
+}
+.categories-section {
+  margin-top: 80px;
+}
+.categories-container {
+  padding-bottom: 10px;
+}
+.category-item {
+  padding: 5px 20px;
+  border-radius: 10px;
+  color: black;
+}
+.category-picked,
+.category-active {
+  color: white;
+  background-color: #b6754c;
+  padding: 10px 20px;
+}
+
+.img-card-product {
+  height: 150px;
+}
+.img-card-product img {
+  display: block;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.icon-plus {
+  border-radius: 10px;
+  color: white;
+  padding: 5px 15px;
+  font-size: 20px;
+  background-color: #b6754c;
+}
+.nav-bottom {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  backdrop-filter: blur(10px);
+}
+.menu-item {
+  font-size: 1.2rem;
+  color: #b7b7b7;
+  font-weight: 500;
+}
+.picked-menu-item {
+  color: #e27d19;
+}
+.menu-item i {
+  font-size: 1.2rem;
+}
+
+/* screen */
+.wallpaper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  z-index: -1;
+  filter: brightness(0.6);
+}
+.icon {
+  width: 200px;
+  height: 200px;
+}
+.content {
+  margin-top: 15%;
+}
+.dots-container {
+  width: 120px;
+  margin: 0 auto;
+}
+.dot-item {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.btn-get-started {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #e27d19;
+  color: white;
+  text-align: center;
+  display: block;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.dots-container .dot-item:nth-child(4) {
+  width: 70px;
+  height: 10px;
+  border-radius: 30px 30px;
+}
+
+/* product */
+.product-canvas {
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  bottom: 0;
+  border-radius: 30px 30px 0 0;
+  background-color: white;
+  backdrop-filter: blur(10px);
+}
+.price i {
+  color: #e27d19;
+}
+.size-item {
+  background-color: white;
+  border: 1px solid gray;
+  padding: 5px 0;
+  border-radius: 10px;
+}
+.size-item-picked {
+  background-color: #fff5ee;
+  border: #e27d19 solid;
+  color: #e27d19;
+}
+.btn-buy {
+  border: none;
+  background-color: #e27d19;
+  padding: 16px 70px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+/* payment */
+.nav-item {
+  color: #e27d19;
+}
+.delivery-options {
+  background-color: #ededed;
+}
+.option {
+  background-color: #f8f8f8;
+}
+.picked-options {
+  color: white;
+  background-color: #e27d19;
+  padding: 10px 0;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.address-options button {
+  background: none;
+  padding: 5px 25px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.img-list-product {
+  height: 100px;
+  width: 100px;
+}
+
+.img-list-product img {
+  border-radius: 10px;
+}
+.quantity-btn {
+  background-color: #e27d19;
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+.quantity-set {
+  padding: 10px 0px;
+  width: 100px;
+}
+.discount {
+  background-color: #ededed;
+  padding: 15px;
+  border-radius: 20px;
+}
+#payment-method {
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+.btn-order {
+  border: none;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #e27d19;
+}
+#discount {
+  fill: red;
+}
